@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-0xu6Ub6Rt8VntS3QUwRM3zjlk4WT0bBllwvDRw6wz0RG8a02XG6RdjV8ZrKbzq6HDxB/Kf8P6axqUS25B53jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+    <div class="inputs">
+        <div class="day">
+            <p>DAY</p>
+            <input id="day_input" type="text" placeholder="DD">
+        </div>
+        <div class="month">
+            <p>MONTH</p>
+            <input id="month_input"  type="text" placeholder="MM">
+        </div>
+        <div class="year">
+            <p>YEAR</p>
+            <input id="year_input" type="text" placeholder="YYYY">
+        </div>
+    </div>
+        <div id="line"></div>
+        <img id="arrow" src="./arrow.png" alt="">
+
+
+        <div class="display">
+            <h1><span id="years">--</span> YEARS</h1>
+            <h1><span id="months">--</span> MONTHS</h1>
+            <h1><span id="days">--</span> DAYS</h1>
+        </div>
+        <button onclick="window.location.reload()">reset</button>
+</div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(231, 231, 228) ;
+}
+.main{
+    width: 60%;
+    height:70vh;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    border-radius: 10px;
+    border-bottom-right-radius: 150px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+.inputs input{
+    height: 50px;
+    width: 120px;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#line{
+    width: 600px;
+    height: 1px;
+    background-color: rgb(133, 131, 131);
+    margin: 30px;
+    display: inline-block;
+}
+.display h1{
+    color: rgb(95, 8, 95);
+    margin-left: 100px;
+    font-size: 50px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 40px;
+    background-color: purple;
+    color: white;
+    margin-left: 590px;
+}
+
+@media screen and (max-width:1230px){
+    button{
+        margin-left: 400px;
+    }
+    #line{
+        width: 400px;
+    }
+}
+@media screen and (max-width:900px) {
+    #arrow{
+        display: block;
+        margin: auto;
+    }
+    button{
+        margin-top: 30px;
+        margin-left:auto ;
+    }
+    #line{
+        width: 300px;
+    }
+    
+}
+@media screen and (max-width:660px) {
+    .inputs input{
+        height: 30px;
+        width: 80px;
+        font-size: 20px;
+    }
+    .display h1{
+        font-size: 20px;
+    }
+    #line{
+        width: 200px;
+    }
+    button{
+        width: 100px;
+    }
+}
